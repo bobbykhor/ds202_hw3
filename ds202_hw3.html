@@ -380,7 +380,7 @@ library(ggplot2)</code></pre>
 <pre class="r"><code>numParty&lt;-nrow(tips)
 numParty</code></pre>
 <pre><code>## [1] 244</code></pre>
-<p></br> 2. What are the types of variables in the data frame <code>tips</code>?</p>
+<p></br> 2. What are the types of variables in the data frame <code>tips</code>? Include the code and also explain verbally.</p>
 <pre class="r"><code>str(tips)</code></pre>
 <pre><code>## &#39;data.frame&#39;:    244 obs. of  7 variables:
 ##  $ total_bill: num  17 10.3 21 23.7 24.6 ...
@@ -390,6 +390,7 @@ numParty</code></pre>
 ##  $ day       : Factor w/ 4 levels &quot;Fri&quot;,&quot;Sat&quot;,&quot;Sun&quot;,..: 3 3 3 3 3 3 3 3 3 3 ...
 ##  $ time      : Factor w/ 2 levels &quot;Dinner&quot;,&quot;Lunch&quot;: 1 1 1 1 1 1 1 1 1 1 ...
 ##  $ size      : int  2 3 3 2 4 4 2 4 2 2 ...</code></pre>
+<p><strong>There are 7 variables in the data frame ‘tips’ where there are 2 numeric varibles, 4 factor varibles, and 1 integer variable.</strong></p>
 <p></br> 3. Create a vector named <code>day</code> containing the day of visits in <code>tips</code>. The factor levels should be ordered from Thursday to Sunday. Print the variable.</p>
 <pre class="r"><code>day &lt;- factor(tips$day,levels = c(&quot;Thur&quot;,&quot;Fri&quot;,&quot;Sat&quot;,&quot;Sun&quot;))
 day</code></pre>

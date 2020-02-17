@@ -23,10 +23,13 @@ numParty<-nrow(tips)
 numParty
 ```
 </br>
-2. What are the types of variables in the data frame `tips`? 
+2. What are the types of variables in the data frame `tips`? Include the code and also explain verbally.
 ```{r}
 str(tips)
 ```
+
+**There are 7 variables in the data frame 'tips' where there are 2 numeric varibles, 4 factor varibles, and 1 integer variable.**
+
 </br>
 3. Create a vector named `day` containing the day of visits in `tips`. The factor levels should be ordered from Thursday to Sunday. Print the variable.
 ```{r}
